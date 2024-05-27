@@ -1,24 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
+// src/App.tsx
+
+import React, { useState } from 'react';
 import './App.css';
+import Timer from './components/Timer';
+import Settings from './components/Settings';
+import Sound from './components/Sound';
 
 function App() {
+  const [workDuration, setWorkDuration] = useState(25);
+  const [breakDuration, setBreakDuration] = useState(5);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h2 className="pomodoro-title">Pomodoro Timer</h2>
+      <Timer workDuration={workDuration} breakDuration={breakDuration} />
+      <Settings
+        onSettingsChange={(newWorkDuration, newBreakDuration) => {
+          setWorkDuration(newWorkDuration);
+          setBreakDuration(newBreakDuration);
+        }}
+      />
+      <Sound />
     </div>
   );
 }
