@@ -17,6 +17,11 @@ body {
   text-stroke: 1px #136318b0; */
 }
 
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 .logo {
   position: top left;
   height: 100px;
