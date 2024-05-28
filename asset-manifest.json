@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/snowfall-proj/static/css/main.a4ac1f38.css",
-    "main.js": "/snowfall-proj/static/js/main.cedb2a4c.js",
+    "main.css": "/snowfall-proj/static/css/main.00b6b3cc.css",
+    "main.js": "/snowfall-proj/static/js/main.2b94c0db.js",
     "static/js/453.25dbb566.chunk.js": "/snowfall-proj/static/js/453.25dbb566.chunk.js",
+    "static/media/Snowfall.JPG": "/snowfall-proj/static/media/Snowfall.eb89d453a98b27741cc6.JPG",
     "index.html": "/snowfall-proj/index.html",
-    "main.a4ac1f38.css.map": "/snowfall-proj/static/css/main.a4ac1f38.css.map",
-    "main.cedb2a4c.js.map": "/snowfall-proj/static/js/main.cedb2a4c.js.map",
+    "main.00b6b3cc.css.map": "/snowfall-proj/static/css/main.00b6b3cc.css.map",
+    "main.2b94c0db.js.map": "/snowfall-proj/static/js/main.2b94c0db.js.map",
     "453.25dbb566.chunk.js.map": "/snowfall-proj/static/js/453.25dbb566.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a4ac1f38.css",
-    "static/js/main.cedb2a4c.js"
+    "static/css/main.00b6b3cc.css",
+    "static/js/main.2b94c0db.js"
   ]
 }
