@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div className="App">
-      <h2 className="pomodoro-title">Pomodoro Timer</h2>
+      <h2 className="pomodoro-title">Snoqualmie Pass Snowfall</h2>
       <Timer workDuration={workDuration} breakDuration={breakDuration} />
       <Settings
         onSettingsChange={(newWorkDuration, newBreakDuration) => {
