@@ -1,7 +1,7 @@
 /* src/App.css */
 
 body {
-  font-family: 'Times New Roman', Times, serif, sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 16px;
   background-color: #77d26d;
   background-image: url('https://summitatsnoqualmie.com/assets/Images/Summit/Images/Nights/mountain%20stats/XL-hero-stats.jpg');
@@ -21,13 +21,14 @@ body {
 }
 
 .container {
-  position: top left;
   max-width: 800px;
   margin: 0 auto;
 }
 
 .logo {
-  position: top left;
+  position: absolute;
+  top: 0;
+  left: 0;
   height: 100px;
   width: 100px;
 }
