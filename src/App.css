@@ -47,7 +47,8 @@ h2 {
 }
 
 .project-title {
-  color: #136318;
+  color: #000000;
+  font-family: 'Fjalla One', sans-serif;
   font-size: 40px;
 }
 
