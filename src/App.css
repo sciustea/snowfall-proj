@@ -30,8 +30,8 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 10px;
-  background-color: rgba(0, 0, 0, 0.162); /* transparent background */
+  padding: 9px;
+  background-color: rgba(0, 0, 0, 0.2); /* transparent background */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -56,4 +56,5 @@ h2 {
   color: #000000;
   font-family: 'Fjalla One', sans-serif;
   font-size: 40px;
+  text-align: center;
 }
