@@ -9,9 +9,12 @@ function App() {
 
   return (
     <div className="App">
-      <h2 className="project-title">Snoqualmie Pass Snowfall</h2>
-      <div className="container">
+      <div className="banner">
+        <h2 className="project-title">Snoqualmie Pass Snowfall</h2>
         <img src={logo} alt="Logo" className="logo" />
+      </div>
+      <div className="container">
+        
       </div>
     </div>
   );
