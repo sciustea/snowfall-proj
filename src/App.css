@@ -30,8 +30,8 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 20px;
-  background-color: rgba(0, 0, 0, 0.5); /* transparent background */
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.162); /* transparent background */
   display: flex;
   justify-content: space-between;
   align-items: center;
