@@ -43,7 +43,7 @@ body {
   width: 125px;
   border-radius: 25px;
   order: 1;
-  left: 20px;
+  right: 20px;
 }
 
 h2 {
