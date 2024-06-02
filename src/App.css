@@ -31,6 +31,10 @@ body {
   left: 0;
   width: 100%;
   padding: 9px;
+  background-image: url('https://summitatsnoqualmie.com/assets/Images/Summit/Images/Nights/mountain%20stats/XL-hero-stats.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   background-color: rgba(0, 0, 0, 0.2); /* transparent background */
   display: flex;
   justify-content: flex-start;
@@ -57,4 +61,34 @@ h2 {
   font-family: 'Fjalla One', sans-serif;
   font-size: 40px;
   flex: 1;
+}
+
+.weather-forecast {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.weather-card {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.weather-card img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.weather-card h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.weather-card p {
+  font-size: 18px;
+  color: #666;
 }
