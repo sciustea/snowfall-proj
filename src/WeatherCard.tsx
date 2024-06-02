@@ -11,7 +11,7 @@ interface WeatherCardProps {
 const WeatherCard: React.FC<WeatherCardProps> = ({ date, icon, temp }) => {
   return (
     <div className="weather-card">
-      <img src={icon === 'sunny' ? 'https://via.placeholder.com/50x50/ffffff/000000?text=☀️' : icon === 'cloudy' ? 'https://via.placeholder.com/50x50/ffffff/000000?text=☁️' : 'https://via.placeholder.com/50x50/ffffff/000000?text=☔️'} alt={icon} />
+      <img src={`https://via.placeholder.com/50?text=${icon}`} alt={icon} />
       <h3>{date}</h3>
       <p>{temp}</p>
     </div>

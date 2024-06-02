@@ -7,10 +7,8 @@ import WeatherCard from './WeatherCard';
 
 function App() {
   const [weatherData, setWeatherData] = useState([
-    { date: 'Today', icon: 'sunny', temp: '60°F' },
     { date: 'Tomorrow', icon: 'cloudy', temp: '65°F' },
-    { date: 'This Weekend', icon: 'rainy', temp: '50°F' },
-  ]); // Add some sample weather data
+  ]);
 
   return (
     <div className="App">
