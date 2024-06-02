@@ -31,10 +31,6 @@ body {
   left: 0;
   width: 100%;
   padding: 9px;
-  background-image: url('https://summitatsnoqualmie.com/assets/Images/Summit/Images/Nights/mountain%20stats/XL-hero-stats.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   background-color: rgba(0, 0, 0, 0.2); /* transparent background */
   display: flex;
   justify-content: flex-start;
