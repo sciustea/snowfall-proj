@@ -41,8 +41,9 @@ body {
 .logo {
   height: 125px;
   width: 125px;
-  margin-left: 20px;
+  border-radius: 25px;
   order: 1;
+  left: 20px;
 }
 
 h2 {
