@@ -59,6 +59,7 @@ h2 {
   font-family: 'Fjalla One', sans-serif;
   font-size: 40px;
   flex: 1;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .weather-forecast {
