@@ -5,15 +5,17 @@ import React from 'react';
 interface WeatherCardProps {
   date: string;
   icon: string;
-  temp: string;
+  temp: number;
+  snowfall: number;
 }
 
-const WeatherCard: React.FC<WeatherCardProps> = ({ date, icon, temp }) => {
+const WeatherCard: React.FC<WeatherCardProps> = ({ date, icon, temp, snowfall }) => {
   return (
     <div className="weather-card">
-      <img src={`https://via.placeholder.com/50?text=${icon}`} alt={icon} />
       <h3>{date}</h3>
-      <p>{temp}</p>
+      <img src={`http://openweathermap.org/img/wn/${icon}@2x.png`} alt={icon} />
+      <p>Temperature: {temp}°F</p>
+      <p>Snowfall: {snowfall} inches</p>
     </div>
   );
 };
