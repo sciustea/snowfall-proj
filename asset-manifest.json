@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/snowfall-proj/static/css/main.48d0d13e.css",
+    "main.css": "/snowfall-proj/static/css/main.108b1b1a.css",
     "main.js": "/snowfall-proj/static/js/main.e281fe03.js",
     "static/js/453.bcede05f.chunk.js": "/snowfall-proj/static/js/453.bcede05f.chunk.js",
     "static/media/logo.jpg": "/snowfall-proj/static/media/logo.eb89d453a98b27741cc6.jpg",
     "index.html": "/snowfall-proj/index.html",
-    "main.48d0d13e.css.map": "/snowfall-proj/static/css/main.48d0d13e.css.map",
+    "main.108b1b1a.css.map": "/snowfall-proj/static/css/main.108b1b1a.css.map",
     "main.e281fe03.js.map": "/snowfall-proj/static/js/main.e281fe03.js.map",
     "453.bcede05f.chunk.js.map": "/snowfall-proj/static/js/453.bcede05f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.48d0d13e.css",
+    "static/css/main.108b1b1a.css",
     "static/js/main.e281fe03.js"
   ]
 }
