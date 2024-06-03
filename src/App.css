@@ -20,10 +20,10 @@ body {
   text-stroke: 1px #136318b0; */
 }
 
-.container {
+/* .container {
   max-width: 800px;
   margin: 0 auto;
-}
+} */
 
 .banner {
   position: absolute;
@@ -88,4 +88,32 @@ h2 {
 .weather-card p {
   font-size: 18px;
   color: #666;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin-top: -50px; /* adjust the margin to center the button */
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.get-forecast-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+}
+
+.get-forecast-button:hover {
+  background-color: #3e8e41;
 }

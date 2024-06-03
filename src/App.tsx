@@ -9,12 +9,6 @@ function App() {
   const [weatherData, setWeatherData] = useState(null);
   const [showSnowfall, setShowSnowfall] = useState(false);
 
-  // useEffect(() => {
-  //   fetch('https://api.openweathermap.org/data/2.5/forecast?q=Snoqualmie Pass&units=imperial&appid=YOUR_API_KEY')
-  //     .then(response => response.json())
-  //     .then(data => setWeatherData(data.list[1])); // get tomorrow's weather data
-  // }, []);
-
   const handleGetForecast = () => {
     fetch('https://api.openweathermap.org/data/2.5/forecast?q=Snoqualmie Pass&units=imperial&appid=YOUR_API_KEY')
       .then(response => response.json())
@@ -32,18 +26,19 @@ function App() {
         <img src={logo} alt="Logo" className="logo" />
       </div>
       <div className="container">
-        {
-          <button onClick={handleGetForecast}>Get Forecast</button>
-        /* <h3>Today's Date: {date}</h3> */
-        // {weatherData && (
-        //   <WeatherCard
-        //     date={weatherData.dt_txt}
-        //     icon={weatherData.weather[0].icon}
-        //     temp={showSnowfall ? weatherData.snow['3h'] : weatherData.main.temp}
-        //     unit={showSnowfall ? 'in' : '°F'}
-        //   />
-        // )}
-       }
+        <div className="button-container">
+          <button onClick={handleGetForecast} className="get-forecast-button">Get Forecast</button>
+        </div>
+        {weatherData && (
+          <WeatherCard
+            date="Today"
+            icon="01d"
+            temp={65}
+            snowfall={2}
+            unit="°F"
+            description="Sunny with a chance of snow"
+          />
+        )}
       </div>
     </div>
   );
