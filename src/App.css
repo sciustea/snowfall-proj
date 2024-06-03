@@ -3,7 +3,7 @@
 body {
   font-family: 'Fjalla One', sans-serif;
   font-size: 16px;
-  background-color: #77d26d;
+  background-color: #354b9c;
   background-image: url('https://summitatsnoqualmie.com/assets/Images/Summit/Images/Nights/mountain%20stats/XL-hero-stats.jpg');
   background-size: cover;
   background-position: center;
@@ -43,7 +43,8 @@ body {
   width: 135px;
   border-radius: 25px;
   order: 1;
-  margin-left: 20px;
+  position: absolute;
+  left: 20px;
 }
 
 h2 {
